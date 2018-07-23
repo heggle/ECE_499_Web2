@@ -250,6 +250,11 @@ hr {
 	color: white;
 }
 
+#skillswrap h4 {
+	color: white;
+	text-align: center;
+}
+
 #footwrap {
 	background: #2f2f2f;
 	padding-top: 50px;
