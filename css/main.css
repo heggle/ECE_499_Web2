@@ -183,7 +183,7 @@ hr {
   	padding: 100px 0;
   	text-align: center;
   	color: white;
-  	background:url(../img/dott.png)repeat 0px 0px, url(../img/b4.jpg) no-repeat top center scroll;
+  	background:url(../img/dott.png)repeat, url(../img/b4.jpg) no-repeat top center scroll;
   	background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -204,7 +204,7 @@ hr {
   /* This is where to chance font size and spacing for the title and icons */
   .intro .intro-body .brand-heading {
     font-size: 80px;
-    padding: 10px; /*vertical space between icons and name*/
+    padding: 5px; /*vertical space between icons and name*/
     color: white;
     font-weight: 300;
   }
