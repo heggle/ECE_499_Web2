@@ -180,18 +180,16 @@ hr {
 .intro {
   	display: table;
   	width: 100%;
-  	height: auto;
   	padding: 100px 0;
   	text-align: center;
   	color: white;
-  	background: url(../img/b4.jpg) no-repeat top center scroll;
+  	background:url(../img/dott.png)repeat 0px 0px, url(../img/b4.jpg) no-repeat top center scroll;
   	background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
   	background-size: cover;
     -o-background-size: cover;
 }
-
 
 .intro .intro-body {
   display: table-cell;
