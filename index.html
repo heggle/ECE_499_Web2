@@ -131,14 +131,14 @@
         <br>
         <div class="col-lg-4">
             <!-- TODO add new picture for the algorithm section -->
-     
+
             <img class="img-responsive" src="img/frontsquat2_sized.jpg" alt="algor" />
         </div>
         <div class="col-lg-8">
             <!-- TODO update this for the description of the algorithm. -->
-       
             <p>FWD has a database of <span class="accent">over 150 exercises</span> to fit users’ needs and provide a variety of workouts. Physical Education student and long-time athlete Kayla Natarelli has used her fitness and health expertise to develop exercises for cardio, HIIT, and strength workouts. Strength workouts are designed to target the upper body, lower body, or core muscle groups and there are exercises that can be done at the gym or at home with without any equipment. 
         <br>
+            The exercises are stored in two databases: exercise details and tutorial information. The exercise detail database holds the information about each exercise including if it requires equipment, the muscle group it targets, the reps and sets necessary for strength exercises, and the time duration of the exercise. The second database stores the tutorial information for the exercise. It contains easy-to-understand step-by-step instructions and accompanying photos to help you complete each exercise.
         <br>
             The exercises are stored in two databases: 'exercise details' and 'tutorial information'. The exercise details database holds the information about each exercise including if it requires equipment, the muscle group it targets, the reps and sets necessary for strength exercises, and the time duration of the exercise. The second database stores the tutorial information for the exercise. It contains easy-to-understand step-by-step instructions and accompanying photos to help you complete each exercise. 
         <br> 
@@ -160,6 +160,7 @@
       </div>
       <div class="col-lg-8">
         <!-- TODO update this for the description of the algorithm. -->
+
         <p> 
         FWD uses a <span class="accent_dark">straightforward and effective</span> algorithm to create a workout that fits your day. It does this by first reading the type of workout (strength, cardio, or HIIT) you selected and collecting all the exercises of that type from its ‘exercise details’ database. The algorithm then uses a process of elimination to narrow down the the list of exercises appropriate for your workout. If you selected a strength workout, the algorithm removes all exercises that don’t fit your ‘targeted muscle group’ from its list of eligible exercises. Once a list of eligible exercises that fit all your inputs has been established, the algorithm accesses the ‘exercise tutorial’ database to retrieve tutorial instructions. 
         <br>
@@ -186,6 +187,7 @@
       </div>
       <div class="col-lg-8">
         <!-- TODO update this for the description of the algorithm. -->
+
         <p> 
         The User Interface (UI) was designed to abide by <span class="accent">Google's principles of Material Design </span>[2] with bold, contrasting colors, and intuitive user activities. Should you have any trouble creating your custom workout, FWD has pop-up notifications [3] to help you along the way.
          <br>
@@ -196,6 +198,7 @@
          With its sleek easy-to-use interface, we designed FWD to  ensure it optimizes your workout experience.
          <br>
          <br>
+
         </p>
       </div>
     </div><!--/.container -->
@@ -243,47 +246,35 @@
 
 
   <!-- contact -->
-  <section class="w3ls-section contact" id="contact">
-	<div class="container">
-		<!--
-		<div class="w3ls-title">
-			<h3 class="heading">University of Victoria</h3>
-		</div>
-		<div class="w3ls_map">
-			<iframe style="border:0 src=https://www.google.com/maps/embed/v1/place?key=AIzaSyAjXICnM0y5Sf2GQehUQ8Q9ffc0uG3NIpE&q=Space+Needle,Seattle+WA" allowfullscreen>
-			</iframe>
-		</div>
-		-->
-
-		<div class="contact_wthreerow agileits-w3layouts">
-
-			<div class="col-md-7 w3l_contact_form">
-				<h4>Contact Form</h4>
-				<form action="#" method="post">
-					<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"
-						required="">
-					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}"
-						required="">
-					<input type="text" name="Phone" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}"
-						required="">
-					<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-					<input type="submit" value="Submit">
-				</form>
-			</div>
-			<div class="col-md-5 agileits_w3layouts_contact_gridl">
-				<div class="agileits_mail_grid_right_grid">
-          <!-- TODO Update the contact description and the address here -->
-					<h4>Contact Info</h4>
-					<p>Are you interested in using FWD? Are there extra features you'd like to see? Let us know! We'd love to hear your feedback.</p>
-					<ul class="contact_info">
-						<li><span class="fa fa-map-marker" aria-hidden="true"></span><a>Victoria, BC, Canada</a></li>
-						<li><span class="fa fa-envelope" aria-hidden="true"></span><a href="mailto:fast.workout.designer@gmail.com">fast.workout.designer@gmail.com</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-  </section>
+  <section id="contact" name="contact"></section>
+    <!--FOOTER DESCRIPTION -->
+	   <div id="footwrap">
+       <div class="container">
+         <div class="row">
+           <h5 class="heading">CONTACT</h5>
+           <div class="col-lg-12">
+               <br>
+               <!-- TODO Add app description here -->
+               <p>FWD was created in completion of <span class="accent">ECE 499 at the University of Victoria</span>. We'd like to thank our faculty supervisor Dr. Cai, the University of Victoria's Department of Electrical and Computer Engineering for the continued funding of valuable project courses such as this one, and our friends and family for their support over the past 4 months. We couldn't have done it without you!</p>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-sm-8">
+             <br>
+             <p><t>Email</t><br/>
+               <a href="mailto:fast.workout.designer@gmail.com">fast.workout.designer@gmail.com</a>
+             </p>
+           </div>
+           <div class="col-sm-4 text-right">
+             <br>
+             <p><sm>SOCIAL LINKS</sm><br>
+               <a href="https://github.com/heggle/"><i class="fa fa-github fa-1x"></i></a>
+               <a href="mailto:fast.workout.designer@gmail.com"><i class="fa fa-envelope fa-1x"></i></a>
+             </p>
+           </div>
+         </div><!--/.row -->
+       </div><!--/.container -->
+     </div><!--/ #footer -->
   <!-- //contact -->
 
 	<div id="c">
