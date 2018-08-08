@@ -385,6 +385,12 @@ background: #424242;
   font-weight: 500;
 }
 
+.accent_dark {
+  color: #000000;
+  font-weight: 500;
+}
+
+
 #image_1 {
   padding-top: 60px;
   padding-bottom: 30px

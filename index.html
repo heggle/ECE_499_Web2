@@ -60,8 +60,8 @@
                         <a class="page-scroll" href="#algorithm">The Algorithm</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#ui">The UI</a>
-                    </li>
+                        <a class="page-scroll" href="#ui">The Interface</a>
+                    </li>            
                     <li>
                         <a class="page-scroll" href="#team">The Team</a>
                     </li>
@@ -97,7 +97,7 @@
         <div class="col-lg-12">
             <br>
             <!-- TODO Add app description here -->
-            <p>FWD (Fast Workout Designer) is an app that designs workouts to fit your needs. It’s hard to stay motivated to exercise, especially when exercising means doing the same old jog or set of bicep curls. This no-nonsense, easy-to-use app for your Android phone designs exciting new workouts in seconds. Stop making excuses, and start moving forward with FWD.</p>
+            <p>FWD (Fast Workout Designer) is an app that designs workouts to fit your needs. It’s hard to stay motivated to exercise, especially when exercising means doing the same old jog or set of bicep curls. This no-nonsense, easy-to-use app for your Android phone designs exciting new workouts in seconds. <span class="accent_dark">Stop making excuses, and start moving forward with FWD.</span></p>
         </div>
         <!-- about bottom grids -->
         <div class="col-lg-4">
@@ -136,15 +136,14 @@
         </div>
         <div class="col-lg-8">
             <!-- TODO update this for the description of the algorithm. -->
-            <br>
-            <br>
-            <p>FWD has a database of <span class="accent">over 150 exercises</span> to fit users’ needs and provide a variety of workouts. Physical Education student and long-time athlete Kayla Natarelli has used her fitness and health expertise to develop exercises for cardio, HIIT, and strength workouts. Strength workouts are designed to target the upper body, lower body, or core muscle groups and there are exercises that can be done at the gym or at home with without any equipment.
-        <br>
+            <p>FWD has a database of <span class="accent">over 150 exercises</span> to fit users’ needs and provide a variety of workouts. Physical Education student and long-time athlete Kayla Natarelli has used her fitness and health expertise to develop exercises for cardio, HIIT, and strength workouts. Strength workouts are designed to target the upper body, lower body, or core muscle groups and there are exercises that can be done at the gym or at home with without any equipment. 
         <br>
             The exercises are stored in two databases: exercise details and tutorial information. The exercise detail database holds the information about each exercise including if it requires equipment, the muscle group it targets, the reps and sets necessary for strength exercises, and the time duration of the exercise. The second database stores the tutorial information for the exercise. It contains easy-to-understand step-by-step instructions and accompanying photos to help you complete each exercise.
         <br>
+            The exercises are stored in two databases: 'exercise details' and 'tutorial information'. The exercise details database holds the information about each exercise including if it requires equipment, the muscle group it targets, the reps and sets necessary for strength exercises, and the time duration of the exercise. The second database stores the tutorial information for the exercise. It contains easy-to-understand step-by-step instructions and accompanying photos to help you complete each exercise. 
+        <br> 
         <br>
-            FWD uses document-oriented databases encoded in JavaScript Object Notation (JSON). Using JSON, the algorithm can easily retrieve exercise data to create your custom workout.</p>
+            FWD uses document-oriented databases encoded in JavaScript Object Notation (JSON) [1]. Using JSON, the algorithm can easily retrieve exercise data to create your custom workout.</p>
         </div>
       </div>
     </div>
@@ -157,19 +156,21 @@
       <br>
       <div class="col-lg-4">
           <!-- TODO add new picture for the algorithm section -->
-          <img class="img-responsive" src="img/frontSquat2.jpg" alt="algor" />
+          <img class="img-responsive" src="img/alg1.jpg" alt="algor" />
       </div>
       <div class="col-lg-8">
         <!-- TODO update this for the description of the algorithm. -->
-        <p>
-         FWD uses a straightforward but effective algorithm to create a workout that fits your day. It does this by first reading the type of workout (strength, cardio, or HIIT) you selected and collecting all the exercises of that type from its ‘exercise details’ database. The algorithm then uses a process of elimination to narrow down the the list of exercises appropriate for your workout. If you selected a strength workout, the algorithm removes all exercises that don’t fit your ‘targeted muscle group’ from its list of eligible exercises. Once the algorithm has identified a list of exercises appropriate for your workout, it uses the desired time duration of your workout to the number of exercises needed, and randomly selects the correct number of exercises from its list of candidates.
-         <br>
-         <br>
-        Once your workout has been created, the algorithm accesses the ‘exercise tutorial’ database to retrieve instructions for all the exercises in your workout. With your custom workout and tutorials created, the algorithm passes the data to the UI to display your workout in a scrollable, clickable list of exercises.
 
+        <p> 
+        FWD uses a <span class="accent_dark">straightforward and effective</span> algorithm to create a workout that fits your day. It does this by first reading the type of workout (strength, cardio, or HIIT) you selected and collecting all the exercises of that type from its ‘exercise details’ database. The algorithm then uses a process of elimination to narrow down the the list of exercises appropriate for your workout. If you selected a strength workout, the algorithm removes all exercises that don’t fit your ‘targeted muscle group’ from its list of eligible exercises. Once a list of eligible exercises that fit all your inputs has been established, the algorithm accesses the ‘exercise tutorial’ database to retrieve tutorial instructions. 
+        <br>
+        <br> 
+        The algorithm uses the desired time duration of your workout to determine the number of exercises needed, and randomly selects that number of exercises from its list of candidates to create your custom workout. Without your custom workout and accompanying tutorials created, the he algorithm passes the data to the UI to display your workout in a scrollable, clickable list of exercises.
         </p>
       </div>
     </div>
+    <br>
+    <br>
     <br>
   </div><!--/.container -->
   </section>
@@ -178,19 +179,26 @@
 <section id="ui" name="ui">
   <div class="container">
     <div class="row">
-      <h5>THE UI</h5>
+      <h5>THE INTERFACE</h5>
       <br>
       <div class="col-lg-4">
           <!-- TODO add new picture for the algorithm section -->
-          <img class="img-responsive" src="img/frontSquat2.jpg" alt="algor" />
+          <img class="img-responsive" src="img/popup_light.png" alt="algor" />
       </div>
       <div class="col-lg-8">
         <!-- TODO update this for the description of the algorithm. -->
-        <p>
-         Test new section
+
+        <p> 
+        The User Interface (UI) was designed to abide by <span class="accent">Google's principles of Material Design </span>[2] with bold, contrasting colors, and intuitive user activities. Should you have any trouble creating your custom workout, FWD has pop-up notifications [3] to help you along the way.
          <br>
          <br>
-        Once your workout has been created, the algorithm accesses the ‘exercise tutorial’ database to retrieve instructions for all the exercises in your workout. With your custom workout and tutorials created, the algorithm passes the data to the UI to display your workout in a scrollable, clickable list of exercises.
+        FWD has layouts created using Android’s ‘ConstraintLayout’ class [4] that adjust to your screen size and rotate between portrait and landscape mode with your phone. Your custom workout and tutorial instructions are both clearly displayed in smooth-scrolling lists created using Android’s ‘ListView’ class [5].
+        <br>
+         <br>
+         With its sleek easy-to-use interface, we designed FWD to  ensure it optimizes your workout experience.
+         <br>
+         <br>
+
         </p>
       </div>
     </div><!--/.container -->
@@ -206,7 +214,7 @@
         <div class="col-lg-12">
             <br>
             <!-- TODO Add app description here -->
-            <p>FWD was created in completion of <span class="accent">ECE 499 at the University of Victoria</span>. We'd like to thank our faculty supervisor Dr. Cai, the University of Victoria's Department of Electrical and Computer Engineering for the continued funding of valuable project courses such as this one, and our friends and family for their support over the past 4 months. We couldn't have done it without you!</p>
+            <p>FWD was created in completion of <span class="accent_dark">ECE 499 at the University of Victoria</span>. We'd like to thank our faculty supervisor Dr. Cai, the University of Victoria's Department of Electrical and Computer Engineering for the continued funding of valuable project courses such as this one, and our friends and family for their support over the past 4 months. We couldn't have done it without you!</p>
         </div>
         <br>
         <!-- about bottom grids -->
