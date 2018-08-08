@@ -183,7 +183,7 @@ hr {
   	padding: 100px 0;
   	text-align: center;
   	color: white;
-  	background:url(../img/dott.png)repeat, url(../img/b4.jpg) no-repeat top center scroll;
+  	background:url(../img/dott.png)repeat, url(../img/tester.jpg) no-repeat top center scroll;
   	background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -217,18 +217,33 @@ hr {
   padding-top: 60px;
 }
 
-#about {
-	background: #2c3e50;
+#app h5, p {
+  color: #000000;
+}
+
+
+#algorithm h5{
+  color: #000000;
+}
+
+
+
+#exercises {
+	background: #424242;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
 }
 
-#about h5, p {
-	color: white;
+#exercises h5, p {
+	color: #ffffff;
 }
 
-#about i {
+#exercises p{
+  color: #ffffff;
+}
+
+#exercises i {
 	color: white;
 	font-size: 20px;
 	padding-right: 8px;
@@ -236,22 +251,27 @@ hr {
 }
 
 
-#skillswrap {
-  /*Change padding top for skill section */
-	background: #2c3e50;
+#team {
+
 	padding-top: 30px;
 	padding-bottom: 30px;
-	color: white;
+	color: black;
 }
 
-#skillswrap h5, p {
-	color: white;
+#team h5, p {
+	color: black;
 }
 
-#skillswrap h4 {
-	color: white;
+#team p {
+  color: black;
+}
+
+
+#team h4 {
+	color: black;
 	text-align: center;
 }
+
 
 #footwrap {
 	background: #2f2f2f;
@@ -278,8 +298,16 @@ hr {
 }
 
 .agileits_mail_grid_right_grid p {
-	color: #000000;
+	color: #ffffff;
 }
+
+
+#contact_wthreerow agileits-w3layouts{
+background: #424242;
+ 
+}
+
+
 
 /* Copyright Wrap */
 
@@ -293,7 +321,29 @@ hr {
 	color: white
 }
 
+#ui {
+  background: #424242;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+}
 
+#iu p, h5 {
+  color: white;
+}
+
+#ui p{
+  color: #ffffff;
+}
+
+
+
+#ui i {
+  color: white;
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
 
 /* Global Values */
 .desc {
@@ -308,6 +358,7 @@ hr {
 	color: #34495e;
 	font-weight: 700;
 }
+
 
 .desc imp {
 	padding: 6px;
@@ -329,8 +380,8 @@ hr {
 
 }
 
-.skill-word {
-  color: #1abc9c;
+.accent {
+  color: #0bffd7;
   font-weight: 500;
 }
 
@@ -339,11 +390,11 @@ hr {
   padding-bottom: 30px
 }
 
-#resume h4 {
+#app h4 {
 	text-align: center;
 	color: black;
 }
-#resume p {
+#app p {
 	color: black;
 	text-align: left;
 }
