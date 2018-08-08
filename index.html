@@ -97,7 +97,7 @@
         <div class="col-lg-12">
             <br>
             <!-- TODO Add app description here -->
-            <p>FWD (Fast Workout Designer) is an app that designs workouts to fit your needs. It’s hard to stay motivated to exercise, especially when exercising means doing the same old jog or set of bicep curls. This no-nonsense, easy-to-use app for your Android phone designs exciting new workouts in seconds. <span class="accent_dark">Stop making excuses, and start moving forward with FWD.</span></p>
+            <p> It’s hard to stay motivated to exercise, especially when exercising means doing the same old jog or set of bicep curls. FWD Fast Workout Designer is an app for Android 7.1.1 and above that designs workouts to fit your needs. This no-nonsense, easy-to-use app for your Android phone designs exciting new workouts in seconds. <span class="accent_dark">Stop making excuses, and start moving forward with FWD.</span></p>
         </div>
         <!-- about bottom grids -->
         <div class="col-lg-4">
@@ -116,7 +116,7 @@
             <!-- TODO Update image and add description and new title (title is the h4 tag) -->
             <img class="img-responsive" src="img/TutorialPage.jpg" alt="screen shot 3" />
             <h4>Follow the Exercise Tutorials</h4>
-            <p>FWD provides you with step-by-step step instructions for every exercise so that you don’t have to worry when you see an exercise you’ve never heard of before. Learning new exercises to expand your personal fitness knowledge is part of the benefit of using FWD.<p>
+            <p>FWD provides you with step-by-step instructions for every exercise so that you don’t have to worry when you see an exercise you’ve never heard of before. Learning new exercises to expand your personal fitness knowledge is part of the benefit of using FWD.<p>
         </div>
       </div>
         <br>
@@ -138,7 +138,6 @@
             <!-- TODO update this for the description of the algorithm. -->
             <p>FWD has a database of <span class="accent">over 150 exercises</span> to fit users’ needs and provide a variety of workouts. Physical Education student and long-time athlete Kayla Natarelli has used her fitness and health expertise to develop exercises for cardio, HIIT, and strength workouts. Strength workouts are designed to target the upper body, lower body, or core muscle groups and there are exercises that can be done at the gym or at home with without any equipment. 
         <br>
-            The exercises are stored in two databases: exercise details and tutorial information. The exercise detail database holds the information about each exercise including if it requires equipment, the muscle group it targets, the reps and sets necessary for strength exercises, and the time duration of the exercise. The second database stores the tutorial information for the exercise. It contains easy-to-understand step-by-step instructions and accompanying photos to help you complete each exercise.
         <br>
             The exercises are stored in two databases: 'exercise details' and 'tutorial information'. The exercise details database holds the information about each exercise including if it requires equipment, the muscle group it targets, the reps and sets necessary for strength exercises, and the time duration of the exercise. The second database stores the tutorial information for the exercise. It contains easy-to-understand step-by-step instructions and accompanying photos to help you complete each exercise. 
         <br> 
@@ -165,7 +164,7 @@
         FWD uses a <span class="accent_dark">straightforward and effective</span> algorithm to create a workout that fits your day. It does this by first reading the type of workout (strength, cardio, or HIIT) you selected and collecting all the exercises of that type from its ‘exercise details’ database. The algorithm then uses a process of elimination to narrow down the the list of exercises appropriate for your workout. If you selected a strength workout, the algorithm removes all exercises that don’t fit your ‘targeted muscle group’ from its list of eligible exercises. Once a list of eligible exercises that fit all your inputs has been established, the algorithm accesses the ‘exercise tutorial’ database to retrieve tutorial instructions. 
         <br>
         <br> 
-        The algorithm uses the desired time duration of your workout to determine the number of exercises needed, and randomly selects that number of exercises from its list of candidates to create your custom workout. Without your custom workout and accompanying tutorials created, the he algorithm passes the data to the UI to display your workout in a scrollable, clickable list of exercises.
+        The algorithm uses the desired time duration of your workout to determine the number of exercises needed, and randomly selects that number of exercises from its list of candidates to create your custom workout. Without your custom workout and accompanying tutorials created, then the algorithm passes the data to the UI to display your workout in a scrollable, clickable list of exercises.
         </p>
       </div>
     </div>
@@ -189,7 +188,7 @@
         <!-- TODO update this for the description of the algorithm. -->
 
         <p> 
-        The User Interface (UI) was designed to abide by <span class="accent">Google's principles of Material Design </span>[2] with bold, contrasting colors, and intuitive user activities. Should you have any trouble creating your custom workout, FWD has pop-up notifications [3] to help you along the way.
+        The User Interface (UI) was designed to abide by <span class="accent">Google's principles of Material Design </span>[2] with bold, contrasting colors, and intuitive user activities. Should you have any trouble creating your custom workout, FWD has pop-up dialogues [3] to help you along the way.
          <br>
          <br>
         FWD has layouts created using Android’s ‘ConstraintLayout’ class [4] that adjust to your screen size and rotate between portrait and landscape mode with your phone. Your custom workout and tutorial instructions are both clearly displayed in smooth-scrolling lists created using Android’s ‘ListView’ class [5].
@@ -236,8 +235,30 @@
             <!-- TODO Add image for team member here and update the description of team member -->
             <img class="img-responsive" src="img/Kayla.jpg" alt="screen shot 3" />
             <h4>Kayla Natarelli</h4>
-            <p>Kayla has just completed her third year of her Education degree. She is responsible for providing the exercises, their tutorials, and the images for each exercise. Aside from being a fit individual, she spends her time volunteering in class rooms and hanging out with her dog Reggie.<p>
+            <p>Kayla has just completed her third year of her Education degree. She is responsible for providing the exercises, their tutorials, and the images for each exercise. Aside from being a fit individual, she spends her time volunteering in classrooms and hanging out with her dog Reggie.<p>
         </div>
+
+        <div class="col-lg-12">
+            <br>
+            <br>
+            <h5 class="heading">REFERENCES</h5>
+            <br>
+            <!-- TODO Add app description here -->
+            <p>[1] "JSON API — A specification for building APIs in JSON", ​<span class="italic">jasonapi.org​</span>, 2018. [Online]. Available: http://jsonapi.org/. [Accessed: 20- May-2018].<br>
+            [2] “Design”, ​<span class="italic">material.io</span>, ​2018. [Online]. Available: https://material.io/design/. [Accessed: 4-Aug-2018].<br>
+
+              [3] “Dialogues | Guides”, <span class="italic">Android Developers​</span>, ​2018. [Online]. Available: https:https://developer.android.com/guide/topics/ui/dialogs. [Accessed: 4-Aug-2018].<br>
+              [4] “ConstraintLayout | Reference”, ​<span class="italic">Android Developers</span>, 2018. [Online]. Available: https://developer.android.com/reference/android/support/constraint/ConstraintLayout. [Accessed: 4-Aug-2018].<br>
+              [5] “ListView | Reference”, ​<span class="italic">Android Developers</span>, ​2018. [Online]. Available: https://developer.android.com/reference/android/widget/ListView/. [Accessed: 4-Aug-2018].
+
+
+
+
+
+            </p>
+        </div>
+
+
 
       </div><!--/.row -->
     </div><!--/.container -->
@@ -255,22 +276,20 @@
            <div class="col-lg-12">
                <br>
                <!-- TODO Add app description here -->
-               <p>FWD was created in completion of <span class="accent">ECE 499 at the University of Victoria</span>. We'd like to thank our faculty supervisor Dr. Cai, the University of Victoria's Department of Electrical and Computer Engineering for the continued funding of valuable project courses such as this one, and our friends and family for their support over the past 4 months. We couldn't have done it without you!</p>
+               <p>Are you interesting in using FWD? Are there any features you'd like to see added? We'd love to hear your feedback!</p>
            </div>
          </div>
          <div class="row">
            <div class="col-sm-8">
              <br>
-             <p><t>Email</t><br/>
+             <p><sm>EMAIL</sm><br/>
                <a href="mailto:fast.workout.designer@gmail.com">fast.workout.designer@gmail.com</a>
-             </p>
+             
            </div>
            <div class="col-sm-4 text-right">
              <br>
-             <p><sm>SOCIAL LINKS</sm><br>
-               <a href="https://github.com/heggle/"><i class="fa fa-github fa-1x"></i></a>
-               <a href="mailto:fast.workout.designer@gmail.com"><i class="fa fa-envelope fa-1x"></i></a>
-             </p>
+             <p><sm>GITHUB</sm><br>
+               <a href="https://github.com/jinganinja/ECE499"><i class="fa fa-github fa-2x"></i></a></p>
            </div>
          </div><!--/.row -->
        </div><!--/.container -->

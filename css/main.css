@@ -380,6 +380,11 @@ background: #424242;
 
 }
 
+.italic {
+  font-style: italic;
+}
+
+
 .accent {
   color: #0bffd7;
   font-weight: 500;
