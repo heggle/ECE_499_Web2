@@ -114,7 +114,7 @@ hr {
 .navbar-custom .navbar-toggle {
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
-  font-size: 20px;
+  font-size: 25px;
 }
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
@@ -206,10 +206,10 @@ hr {
     font-size: 80px;
     padding: 10px; /*vertical space between icons and name*/
     color: white;
-    font-weight: 300;
+    font-weight: 350;
   }
   .intro .intro-body .intro-text {
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 
@@ -220,7 +220,6 @@ hr {
 #app h5, p {
   color: #000000;
 }
-
 
 #algorithm h5{
   color: #000000;
@@ -252,7 +251,6 @@ hr {
 
 
 #team {
-
 	padding-top: 30px;
 	padding-bottom: 30px;
 	color: black;
@@ -296,18 +294,6 @@ hr {
 	padding: 0px;
 	color: #1abc9c;
 }
-
-.agileits_mail_grid_right_grid p {
-	color: #ffffff;
-}
-
-
-#contact_wthreerow agileits-w3layouts{
-background: #424242;
- 
-}
-
-
 
 /* Copyright Wrap */
 
