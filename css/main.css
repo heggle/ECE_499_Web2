@@ -274,8 +274,9 @@ hr {
 	overflow-wrap: break-word;
   word-wrap: break-word;
 }
-
-
+#reference h5 {
+	color: black;
+}
 #footwrap {
 	background: #2f2f2f;
 	padding-top: 50px;
